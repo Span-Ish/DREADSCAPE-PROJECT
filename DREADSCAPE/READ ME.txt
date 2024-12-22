@@ -1,0 +1,36 @@
+-----------------------------DREADSCAPE----------------------------------------------
+Welcome to DreadScape! This is a horror/thriller game in which you pilot a rover through a canyon on an alien planet (Inspired by 'Iron Lung'). This project was created as part of a project [GROUP 10] to create a game using the 'pygame' module in Python, and was done within 3 months. 
+
+
+--------[IMPORTANT]--------
+PREREQUISITE INSTALLS:
+1. Python - Make sure you have python installed on your system (available on the Microsoft Store and online at www.python.org)
+2. Integrated Development Environment Program - Make sure you have an IDE on your system to run and view the code: Preferably Visual Studio Code (available on the Microsoft Store and online at www.code.visualstudio.com), and if you are using it then make sure you download the Python extension within it as well.
+3. Extra Modules - After downloading Python and an IDE, go to your systems command prompt (type in 'cmd' within the windows search bar) and then type in the following commands to download the required python scripts which are required to run the game:
+i) pip install pygame	ii)pip install ffpyplayer	iii)pip install pymediainfo
+
+4. Additional Details - when downloading the file from GitHub, make sure to download everything at once so all folders are placed correctly. Incase the files are mixed up or all of them cannot be downloaded at once: do the following actions:
+i) create a new folder anywhere on your system to place the game files in
+ii) download the four python files separately, and download the entire assets folder (four python files are game_file, level_data_file, images_file, pythonvideoplayerscript, make sure the assets folder contains the following subfolders: audio, game_font, images)
+	NOTE: pythonvideoplayerscript was not created by us! It is just a version of the pyvidplayer script created by Anray Liu on GitHub (https://github.com/anrayliu/pyvidplayer)
+iii) place all of the files within the folder you created. Just to be safe, run the level_data_file, pythonvideoplayerscript, and images_file scripts to see if they are fully functional, then to start the game you can run the game_file script.
+
+
+--------[IMPORTANT]--------
+IMPORTANT NOTES AND TIPS: 
+i) There is a lot of reading involved in this game. Most lore is told this way and some of the more important details related to the navigation and working with the systems given to you are told through text. As unfortunate as it is we encourage you to read through the text walls to understand your objectives, controls and the lore better.
+
+ii) We tried to make the game as optimized as possible considering the strength of the pygame module, but because of the project's scale that was not entirely possible. When we tried testing the game on different devices, the most common instance of lag that we noticed was after discovering the 2nd Point of Interest, so just to be safe when running the game, keep your device settings on the highest performance mode and plug in your charger if you want to avoid lag, and make sure to do this before opening the game too.
+
+iii) The audio mixing is a bit janky, so try to keep your system/headphone volume a little towards the lower end if you like having ears.
+
+iv) There are certain technical aspects which would either take too long to implement or heavily impacted performance, which can impact the player experience. For example, there is no option to convert the game to full screen. There is also no restart button implemented after a game over, so if you want to restart you will have to close the game and open it again.
+
+v) [EXTRA TIP] The scanner functions are technically entirely optional in the start of the game, in the sense that it just exists to provide additional information about the world. In spite of this, We recommend you at least do a cursory read of them, again due to the aforementioned note to read everything in the game. This will prove to be especially important towards the ending of the game.
+
+
+STORY AND ADDITIONAL DETAILS:
+(We took inspiration for the story and certain mechanics of the game from another indie game called 'Iron Lung' by David Szymanski.) 
+In this game you play as a pilot, forced by a governmental body called the Velvet Consortium to drive a land rover on a mission to survey a canyon on an alien planet. 
+The Velvet Consortium (VC) is telling the public that the purpose of the mission is to analyze the planet to see if it is habitable for humans, but the true aim of the mission is to find out what happened to HEMS19, another land rover sent here by the VC before you that was mysteriously destroyed. 
+The external atmosphere is entirely radioactive so you are stuck inside the rover during the mission, and you have a limited amount of tools at your disposal to help you navigate the canyon without dying, but they may not be very reliable as you progress through your mission.
